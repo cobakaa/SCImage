@@ -80,22 +80,6 @@ Two main design patterns were implemented:
 
 ---
 
-## 📂 Project Structure
-SeamCarvingApp/
-│
-├── Form1.cs # Main window UI
-├── Controller.cs # Controller (MVC)
-├── Model.cs # Model (MVC)
-├── LiquidResize.cs # Core seam carving logic
-├── ImgMask.cs # Mask handling for object removal
-├── Command/
-│ └── ICommand.cs # Interface for commands
-│ └── ImageCommand.cs # Concrete command implementations
-│
-└── Resources/ # Icons and sample images
-
----
-
 ## 🚀 How to Use
 
 1. **Open an image** via `File → Open` or drag-and-drop.
